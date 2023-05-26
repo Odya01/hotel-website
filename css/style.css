@@ -424,7 +424,7 @@ opacity: 1;
 }
 .section_posting_item{
   position: relative;
-  flex: 0 0 30%;
+  flex: 0 0 32%;
   flex-direction: row;
   padding: 0;
 
@@ -497,6 +497,7 @@ opacity: 1;
   background-repeat: no-repeat;
 }
 .section_posting_content-last{
+  position: relative;
   margin-bottom: 27px;
 }
 .section_posting-text-last{
@@ -505,7 +506,7 @@ opacity: 1;
   line-height: 200%;
   color: var(--white);
 }
-.section_posting_content-last::before{
+.section_posting_content-last::after{
   content: '';
   position: absolute;
   top: 0;
